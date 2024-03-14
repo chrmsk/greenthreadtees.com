@@ -1,121 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>T-Shirt Print Landing Page</title>
-<style>
-    body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        color: #333;
-        background-color: #f0f0f0;
-    }
-
-    .navbar {
-        background-color: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        text-align: center;
-    }
-
-    .hero {
-        background-color: #76b852; /* Leaf green */
-        color: white;
-        padding: 100px 20px;
-        text-align: center;
-    }
-
-    .features {
-        background-color: #f0f0f0;
-        padding: 50px 20px;
-        text-align: center;
-    }
-
-    .feature {
-        display: inline-block;
-        margin: 10px;
-        padding: 20px;
-        max-width: 30%;
-        background-color: #e7e7e7; /* Light grey */
-    }
-
-    .gallery {
-        padding: 50px 20px;
-        text-align: center;
-    }
-
-    .gallery img {
-        margin: 10px;
-        width: calc(33% - 20px);
-        vertical-align: middle;
-    }
-
-    .cta {
-        background-color: #76b852;
-        color: white;
-        padding: 50px 20px;
-        text-align: center;
-    }
-
-    .footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 10px;
-    }
-
-    @media (max-width: 768px) {
-        .feature {
-            max-width: 100%;
-        }
-
-        .gallery img {
-            width: calc(50% - 20px);
-        }
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt Brand Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="#" class="logo">T-Shirt Brand</a>
+            <div class="navbar-links">
+                <a href="#">Home</a>
+                <a href="#">Collection</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-<div class="navbar">T-Shirt Brand</div>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Discover Your Style</h1>
+                <p>Explore our collection of eco-friendly and stylish T-shirts designed for the modern individual.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </section>
 
-<div class="hero">
-    <h1>Explore Our Latest T-Shirt Collections</h1>
-    <p>Designed for the vibrant youth of today.</p>
-</div>
+        <section class="features">
+            <div class="feature-item">
+                <h2>Eco-Friendly</h2>
+                <p>Our tees are made from 100% organic materials, ensuring minimal environmental impact.</p>
+            </div>
+            <div class="feature-item">
+                <h2>Modern Designs</h2>
+                <p>Each piece is thoughtfully designed to reflect contemporary trends and timeless style.</p>
+            </div>
+            <div class="feature-item">
+                <h2>Unmatched Comfort</h2>
+                <p>Experience comfort like never before with our soft, breathable fabrics.</p>
+            </div>
+        </section>
 
-<div class="features">
-    <div class="feature">
-        <h3>Eco-Friendly</h3>
-        <p>Our t-shirts are made with sustainable practices that love the earth.</p>
-    </div>
-    <div class="feature">
-        <h3>Innovative Designs</h3>
-        <p>Each piece is a statement of creativity and modern fashion.</p>
-    </div>
-    <div class="feature">
-        <h3>Perfect Fit</h3>
-        <p>Comfortable, durable, and made for everyone.</p>
-    </div>
-</div>
+        <section class="gallery">
+            <!-- Gallery items here -->
+        </section>
+    </main>
 
-<div class="gallery">
-    <img src="path/to/your/image1.jpg" alt="T-Shirt 1">
-    <img src="path/to/your/image2.jpg" alt="T-Shirt 2">
-    <img src="path/to/your/image3.jpg" alt="T-Shirt 3">
-    <!-- Add more images as needed -->
-</div>
-
-<div class="cta">
-    <h2>Join the Fashion Revolution</h2>
-    <p>Get your hands on the latest trends now.</p>
-    <button>Shop Now</button>
-</div>
-
-<div class="footer">
-    <p>© 2024 T-Shirt Brand. All rights reserved.</p>
-</div>
-
+    <footer class="site-footer">
+        <p>© 2024 T-Shirt Brand. All rights reserved.</p>
+    </footer>
 </body>
 </html>
