@@ -3,116 +3,118 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Leafline Tees - Fresh Fashion for the Conscious</title>
+<title>T-Shirt Print Landing Page</title>
 <style>
     body {
         margin: 0;
-        padding: 0;
-        font-family: 'Arial', sans-serif;
-        color: #555; /* Subtle gray for text */
-        background-color: #f5f5f5; /* Light gray background */
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-color: #f0f0f0;
     }
 
     .navbar {
-        background-color: #76b947; /* Leaf green */
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 1000;
-    }
-
-    .navbar a {
-        float: left;
-        display: block;
+        background-color: #4CAF50;
         color: white;
+        padding: 10px 20px;
         text-align: center;
-        padding: 14px 20px;
-        text-decoration: none;
     }
 
-    .main {
-        padding: 16px;
-        margin-top: 50px;
-    }
-
-    .hero-section {
-        background-color: #76b947; /* Leaf green */
+    .hero {
+        background-color: #76b852; /* Leaf green */
         color: white;
+        padding: 100px 20px;
         text-align: center;
-        padding: 50px 10px;
     }
 
-    .features-section {
-        background-color: #eeeeee; /* Very light gray to not overpower the theme */
-        padding: 20px;
+    .features {
+        background-color: #f0f0f0;
+        padding: 50px 20px;
         text-align: center;
     }
 
     .feature {
-        margin: 20px;
-        padding: 20px;
-        background-color: white; /* White background to make the green text pop */
         display: inline-block;
-        width: 30%;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+        margin: 10px;
+        padding: 20px;
+        max-width: 30%;
+        background-color: #e7e7e7; /* Light grey */
     }
 
-    .feature h3, .feature p {
-        color: #76b947; /* Leaf green text in features for emphasis */
+    .gallery {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .gallery img {
+        margin: 10px;
+        width: calc(33% - 20px);
+        vertical-align: middle;
+    }
+
+    .cta {
+        background-color: #76b852;
+        color: white;
+        padding: 50px 20px;
+        text-align: center;
     }
 
     .footer {
-        background-color: #555; /* Darker gray for contrast */
+        background-color: #333;
         color: white;
         text-align: center;
         padding: 10px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         .feature {
-            width: 100%;
+            max-width: 100%;
+        }
+
+        .gallery img {
+            width: calc(50% - 20px);
         }
     }
 </style>
 </head>
 <body>
 
-<div class="navbar">
-    <a href="#">Home</a>
-    <a href="#">Collection</a>
-    <a href="#">About Us</a>
-    <a href="#">Contact</a>
+<div class="navbar">T-Shirt Brand</div>
+
+<div class="hero">
+    <h1>Explore Our Latest T-Shirt Collections</h1>
+    <p>Designed for the vibrant youth of today.</p>
 </div>
 
-<div class="main">
-    <div class="hero-section">
-        <h1>Discover Leafline Tees</h1>
-        <p>Embrace style and sustainability with our eco-conscious collection.</p>
+<div class="features">
+    <div class="feature">
+        <h3>Eco-Friendly</h3>
+        <p>Our t-shirts are made with sustainable practices that love the earth.</p>
     </div>
+    <div class="feature">
+        <h3>Innovative Designs</h3>
+        <p>Each piece is a statement of creativity and modern fashion.</p>
+    </div>
+    <div class="feature">
+        <h3>Perfect Fit</h3>
+        <p>Comfortable, durable, and made for everyone.</p>
+    </div>
+</div>
 
-    <div class="features-section">
-        <h2>Our Commitment to You</h2>
-        <div class="feature">
-            <h3>Sustainably Sourced</h3>
-            <p>We use materials that protect our planet for future generations.</p>
-        </div>
-        <div class="feature">
-            <h3>Designed for Comfort</h3>
-            <p>Our tees are made to look great and feel even better, all day long.</p>
-        </div>
-        <div class="feature">
-            <h3>Eco-Chic Style</h3>
-            <p>Lead the trend with designs that make a statement and a difference.</p>
-        </div>
-    </div>
+<div class="gallery">
+    <img src="path/to/your/image1.jpg" alt="T-Shirt 1">
+    <img src="path/to/your/image2.jpg" alt="T-Shirt 2">
+    <img src="path/to/your/image3.jpg" alt="T-Shirt 3">
+    <!-- Add more images as needed -->
+</div>
+
+<div class="cta">
+    <h2>Join the Fashion Revolution</h2>
+    <p>Get your hands on the latest trends now.</p>
+    <button>Shop Now</button>
 </div>
 
 <div class="footer">
-    <p>&copy; 2024 Leafline Tees. Make a difference with every choice.</p>
+    <p>© 2024 T-Shirt Brand. All rights reserved.</p>
 </div>
 
 </body>
