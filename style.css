@@ -1,9 +1,10 @@
 :root {
-    --primary-color: #4CAF50; /* Vibrant green */
-    --accent-color: #8BC34A; /* Lighter green for accents */
-    --dark-gray: #37474F; /* Dark gray for text and accents */
-    --light-gray: #CFD8DC; /* Light gray for backgrounds */
-    --text-color: #263238; /* Almost black for primary text */
+    --primary-color: #00C853; /* Bright green */
+    --accent-color: #64DD17; /* Light green */
+    --text-color: #FFFFFF; /* White for contrast */
+    --background-color: #FFFFFF; /* Bright white background */
+    --secondary-text-color: #424242; /* Dark gray for secondary text */
+    --button-hover-color: #1B5E20; /* Dark green for button hover */
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -11,21 +12,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body {
     font-family: var(--font-family);
-    color: var(--text-color);
-    background-color: var(--light-gray);
+    background-color: var(--background-color);
     line-height: 1.6;
-    padding: 0 10px;
 }
 
 .site-header,
 .site-footer {
-    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     padding: 20px;
     text-align: center;
 }
@@ -38,7 +37,7 @@ body {
 }
 
 .navbar-links a {
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     margin: 0 15px;
     padding: 7px 10px;
@@ -51,8 +50,8 @@ body {
 }
 
 .hero {
-    background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
-    color: white;
+    background-color: var(--accent-color);
+    color: var(--text-color);
     text-align: center;
     padding: 60px 20px;
 }
@@ -65,7 +64,8 @@ body {
 }
 
 .feature-item {
-    background-color: white;
+    background-color: var(--text-color);
+    color: var(--secondary-text-color);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -79,7 +79,7 @@ body {
 
 .btn {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--text-color);
     padding: 10px 25px;
     text-decoration: none;
     border-radius: 5px;
@@ -88,7 +88,8 @@ body {
 }
 
 .btn:hover {
-    background-color: var(--accent-color);
+    background-color: var(--button-hover-color);
+    color: var(--text-color);
 }
 
 .site-footer {
