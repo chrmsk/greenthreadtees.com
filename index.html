@@ -1,34 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your T-Shirt Brand</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fff; color: #333; }
-        .header { background-color: #f2f2f2; padding: 20px; text-align: center; }
-        .header img { max-width: 100px; }
-        .content { padding: 20px; text-align: center; }
-        .content img { max-width: 100%; height: auto; margin: 20px 0; }
-        .footer { background-color: #f2f2f2; padding: 10px; text-align: center; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trendy Tees - Modern Wear for the Young at Heart</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        color: #333;
+        background-color: #f5f5f5;
+    }
+
+    .navbar {
+        background-color: #4CAF50;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+    .main {
+        padding: 16px;
+        margin-top: 50px;
+    }
+
+    .hero-section {
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 50px 10px;
+    }
+
+    .features-section {
+        background-color: #f5f5f5;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .feature {
+        margin: 20px;
+        padding: 20px;
+        background-color: #eeeeee;
+        display: inline-block;
+        width: 30%;
+    }
+
+    .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    @media (max-width: 600px) {
+        .feature {
+            width: 100%;
+        }
+    }
+</style>
 </head>
 <body>
 
-<div class="header">
-    <img src="path/to/your/logo.png" alt="Logo">
-    <h1>Welcome to Your T-Shirt Brand</h1>
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Collection</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
 </div>
 
-<div class="content">
-    <h2>Our Eco-Friendly Collection</h2>
-    <p>Introducing our eco-friendly, innovative t-shirts designed for the modern individual. Embrace sustainable fashion without compromising on style.</p>
-    <img src="path/to/your/tshirt-design.png" alt="Eco-Friendly T-Shirt">
-    <p>Our flagship t-shirt combines cutting-edge design with environmental responsibility. Made from sustainable materials, it's a perfect choice for those who care about the planet.</p>
+<div class="main">
+    <div class="hero-section">
+        <h1>Welcome to Trendy Tees</h1>
+        <p>Discover the latest in eco-friendly fashion for the young at heart.</p>
+    </div>
+
+    <div class="features-section">
+        <h2>Why Choose Our Tees?</h2>
+        <div class="feature">
+            <h3>Eco-Friendly Materials</h3>
+            <p>Our shirts are made with sustainable materials that are kind to the planet.</p>
+        </div>
+        <div class="feature">
+            <h3>Modern Designs</h3>
+            <p>Stay trendy with our carefully crafted designs tailored for the young spirit.</p>
+        </div>
+        <div class="feature">
+            <h3>Comfort Meets Style</h3>
+            <p>Experience unparalleled comfort without compromising on style.</p>
+        </div>
+    </div>
 </div>
 
 <div class="footer">
-    <p>Contact Us: info@yourdomain.com</p>
+    <p>&copy; 2024 Trendy Tees. All rights reserved.</p>
 </div>
 
 </body>
